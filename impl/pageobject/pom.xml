@@ -30,8 +30,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.rapidpm</groupId>
+			<groupId>com.github.dve.junit5-servlet-container-extension</groupId>
 			<artifactId>rapidpm-junit5-ext-servlet-container-impl-tserver</artifactId>
+			<version>develop-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
