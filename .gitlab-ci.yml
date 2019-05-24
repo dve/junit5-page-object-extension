@@ -1,9 +1,14 @@
 image: images4javadev/buildpack-adopt:1.8.192-12-scm
 
+
+services:
+  - selenium/standalone-chrome
+  
 variables:
   MAVEN_OPTS: "-Dmaven.repo.local=/cache/maven.repository"
   MAVEN_CLI: "--batch-mode"
   
 build:
   script:
+  - cp -r _data/ci-config/.testbenchextensions ~
   - ./mvnw clean install $MAVEN_CLI
