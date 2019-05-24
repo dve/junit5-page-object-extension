@@ -14,7 +14,7 @@
 	</properties>
 	<dependencies>
 		<dependency>
-			<groupId>org.rapidpm</groupId>
+			<groupId>net.vergien</groupId>
 			<artifactId>junit5-ext-page-objects-impl-webdriver</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
