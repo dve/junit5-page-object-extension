@@ -106,7 +106,7 @@
 			<dependency>
 				<groupId>org.rapidpm</groupId>
 				<artifactId>rapidpm-junit5-ext-servlet-container-bom</artifactId>
-				<version>01.00.04-RPM-SNAPSHOT</version>
+				<version>01.00.03-RPM</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
