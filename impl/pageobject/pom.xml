@@ -10,7 +10,7 @@
 	<artifactId>junit5-ext-page-objects-impl-pageobject</artifactId>
 
 	<properties>
-		<vaadin-v08.version>8.7.0</vaadin-v08.version>
+		<vaadin-v08.version>8.12.4</vaadin-v08.version>
 	</properties>
 	<dependencies>
 		<dependency>
